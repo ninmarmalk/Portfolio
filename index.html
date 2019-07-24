@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ninmar Malk</title>
-    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 </head>
@@ -45,16 +45,17 @@
 
     <section class="about" id="about">
         <div class="container">
-            <div class="profile-img">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
                 <img src="images/profile1.jpeg" alt="">
             </div>
-            <div class="about-details">
+            <div class="profile-img" data-aos="fade-left" data-aos-delay="600">
+                <div class="about-details" >
                 <div class="about-heading">
                     <h1>About</h1>
                     <h6>Myself</h6>
                 </div>
                 <p>
-                    I'm a Self-Taught Front End Web Developer and I'm available for hire. I quit my job in Higher Education in January of 2019 to bet on myself and go all in on breaking into tech. It's been one hell of a ride!
+                    I'm a Self-Taught Front-End Web Developer and I'm available for hire. I quit my comfy 9-to-5 in Higher Education in January of 2019 to take a gamble on myself. I wanted to go all in on breaking into tech. It's been one hell of a ride!
                 </p>
                 <div class="social-media">
                     <ul class="nav-list">
@@ -88,21 +89,21 @@
                 </h6>
             </div>
             <div class="my-skills">
-                <div class="skill">
+                <div class="skill" data-aos="fade-in" data-aos-delay="300">
                     <div class="icon-container">
                         <i class="fas fa-layer-group"></i>
                     </div>
                     <h1>Web Design</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-in" data-aos-delay="600">
                     <div class="icon-container">
                         <i class="fas fa-code"></i>
                     </div>
                     <h1>Web Development</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-in" data-aos-delay="900">
                     <div class="icon-container">
                         <i class="fas fa-chart-bar"></i>
                     </div>
@@ -121,10 +122,10 @@
                 <h6>View some of my recent work</h6>
             </div>
             <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
                     <img src="images/portitem1.jpeg" alt="">
                 </div>
-                <div class="portfolio-description">
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
                     <h6>Web Development</h6>
                     <h1>Blog Website</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -132,21 +133,21 @@
                 </div>
             </div>
             <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
                     <h6>Web Design</h6>
                     <h1>Product Layout</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     <a href="#" class="cta">View Details</a>
                 </div>
-                <div class="portfolio-img">
+                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
                     <img src="images/portitem2.jpeg" alt="">
                 </div>
             </div>
             <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
                     <img src="images/portitem3.jpeg" alt="">
                 </div>
-                <div class="portfolio-description">
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
                     <h6>Web Design</h6>
                     <h1>Product Sketch</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -162,7 +163,7 @@
                 <h1>Work Experience</h1>
                 <h6>Past and Current Jobs</h6>
             </div>
-            <div class="timeline">
+            <div class="timeline" data-aos="fade-down" data-aos-delay="300">
                 <ul>
                     <li class="date" data-date="2011 - Present">
                         <h1>Google</h1>
@@ -187,7 +188,7 @@
                 <h1>Contact</h1>
                 <h6>Let's Work Together</h6>
             </div>
-            <form action="">
+            <form action="" data-aos="fade-up" data-aos-delay="300">
                 <label for="name">Name:</label>
                 <input type="text" name="name" id="name" placeholder="Your Name" required>
 
@@ -216,7 +217,7 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="bower_components/aos/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
