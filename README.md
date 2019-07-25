@@ -1,4 +1,5 @@
-#My Portfolio Website
+# My Portfolio Website
 
-This is still a work in progress. Please feel free to visit and drop me an email! 
-ninmarmalk.com
+This is still a work in progress. Please feel free to visit and drop me an email!
+
+https://ninmarmalk.com/
