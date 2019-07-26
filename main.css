@@ -575,6 +575,7 @@ input[type="submit"]:hover {
     .nav-link {
         font-size: 3rem;
     }
+
     .about-heading h1 {
         font-size: 8rem;
 
@@ -606,7 +607,8 @@ input[type="submit"]:hover {
     }
 
     .timeline .date::before {
-        left: -20rem;
+        position: relative;
+        left: 2rem;
     }
 
     .timeline .date::after {
@@ -660,6 +662,8 @@ input[type="submit"]:hover {
     
     .timeline .date::before {
         font-size: 1.4rem;
+        position: relative;
+        left: 2rem;
     }
 
     .form {
