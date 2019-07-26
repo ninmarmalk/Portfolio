@@ -259,6 +259,10 @@ li {
     transition: color 650ms;
 }
 
+.fa-file:hover {
+    color: #ffa734;
+}
+
 .fa-facebook-square:hover {
     color: #4267b2;
 }
